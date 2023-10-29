@@ -1,0 +1,61 @@
+body {
+    background-image: url("img/view-white-crumpled-paper.jpg");
+    font-family: 'Press Start 2P';
+   }
+h1 {
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.icons {
+    width: 250px;
+    height: 250px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.result-cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.score-cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    width:200px;
+    padding: 10px;
+    background-color: rgb(183, 182, 182);
+    border: solid 5px;
+}
+
+h2 {
+    text-align: center;
+    width:200px;
+    padding: 10px;
+    background-color: rgb(183, 182, 182);
+    border: solid 5px;
+}
+
+span {
+    padding: 10px;
+    color: red;
+
+}
